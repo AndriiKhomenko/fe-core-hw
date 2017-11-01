@@ -226,15 +226,19 @@ footer>a:hover{
 	width: 30px;
 	height: 30px;
 }
-div.share{
-	margin-left: 50%;
-	transform: translateX(-50%);
+div.social{
+	margin-top: 25px;
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+div.share{
+	display: flex;
+	flex-direction: row;
 	justify-content: space-between;
-	max-width: 200px;
+	min-width: 200px;
 }
 div.share img{
-	margin-top: 25px;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
