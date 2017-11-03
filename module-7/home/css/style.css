@@ -124,10 +124,10 @@ h3{
 	top: 450px;
 	left: 37px;
 }
-a.button-left:hover{
+.button-left:hover{
 	opacity: 0.7;
 }
-a.button-right:hover{
+.button-right:hover{
 	opacity: 0.7;
 }
 .banner1{
@@ -164,40 +164,44 @@ a.button-right:hover{
 	top: 450px;
 	left: 82px;
 }
-div.img-row1{
+.row123{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 56px;
+	min-width: 100%;
+}
+.img-row1{
 	position: relative;
 	background: url(../img/img1.jpg);
 	width: 290px;
 	height: 270px;
-	margin-bottom: 56px;
 }
-div.img-row2{
+.img-row2{
 	position: relative;
 	background: url(../img/img2.jpg);
 	width: 290px;
 	height: 270px;
-	margin-bottom: 56px;
 }
-div.img-row3{
+.img-row3{
 	position: relative;
 	background: url(../img/img3.jpg);
 	width: 290px;
 	height: 270px;
-	margin-bottom: 56px;
 }
-div.img-row1:hover>div.venice{
+.img-row1:hover>.venice{
 	opacity: 1;
 	transition: all 1s ease 0s;
 }
-div.img-row2:hover>div.venice{
+.img-row2:hover>.venice{
 	opacity: 1;
 	transition: all 1s ease 0s;
 }
-	div.img-row3:hover>div.venice{
+.img-row3:hover>.venice{
 	opacity: 1;
 	transition: all 1s ease 0s;
 }
-div.venice{
+.venice{
 	transition: all 1s ease 0s;
 	opacity: 0;
 	position: absolute;
@@ -207,12 +211,12 @@ div.venice{
 	padding: 22px 11px 19px 9px;
 }
 
-div.venice>p{
+.venice>p{
 	color: #fff;
 	font-size: 10px;
 	line-height: 16px;
 }
-div.details{
+.details{
 	display: inline-block;
 	background: #fff;
 	border-radius: 4px;
@@ -222,7 +226,7 @@ div.details{
 	margin-top: 32px;
 	margin-left: 72px;
 }
-div.details>a{
+.details>a{
 	text-decoration: none;
 	color: #193149;
 }
@@ -231,7 +235,7 @@ div.details>a{
 	flex-direction: row;
 	flex-wrap: nowrap;
 }
-div.razdel>div{
+.razdel>div{
 	font-family: 'Pathway Gothic One', sans-serif;
 	width: 125px;
 	height: 30px;
@@ -241,11 +245,11 @@ div.razdel>div{
 	line-height: 30px;
 	font-size: 19px;
 }
-div.razdel>div:hover{
+.razdel>div:hover{
 	color: lime;
 }
 
-div.newsletter{
+.newsletter{
 	font-family: 'Open Sans Condensed';
 	font-size: 19px;
 	width: 31.3%;
@@ -255,7 +259,7 @@ div.newsletter{
 	text-align: center;
 	line-height: 30px;
 }
-div.newsletter:hover{
+.newsletter:hover{
 	color: lime;
 }
 footer>a:hover{
@@ -270,31 +274,31 @@ footer>a:hover{
 	border: 1px solid #dfdcdc;
 	padding: 41px 19px 42px 14px;
 }
-div.bottom-top{
+.bottom-top{
 	max-height: 105px;
 	max-width: 365px;
 	margin-left: 20px;
 }
-div.bottom-bottom{
+.bottom-bottom{
 	max-height: 105px;
 	max-width: 365px;
 	margin-left: 20px;
 }
-div.left-bottom>img{
+.left-bottom>img{
 	width: 197px;
 	height: 105px;
 }
-div.bottom-top>p{
+.bottom-top>p{
 	font-size: 10px;
 	line-height: 12px;
 	margin-top: 21px;
 }
-div.bottom-bottom>p{
+.bottom-bottom>p{
 	font-size: 10px;
 	line-height: 15px;
 	margin-top: 21px;
 }
-div.bottom-top>a{
+.bottom-top>a{
 	text-decoration: none;
 	color: #193149;
 	display: inline-block;
@@ -306,7 +310,7 @@ div.bottom-top>a{
 	margin-top: 18px;
 	margin-left: 271px;
 }
-div.bottom-bottom>a{
+.bottom-bottom>a{
 	text-decoration: none;
 	color: #193149;
 	display: inline-block;
@@ -326,17 +330,17 @@ div.bottom-bottom>a{
 	width: 28%;
 	border: 1px solid #dfdcdc;
 }
-ul.letter>li:before{
+.letter>li:before{
 	content: url(../img/arrow-right.jpg);
 	margin-right: 15px;
 }
-ul.letter{
+.letter{
 	margin-top: 46px;
 }
-ul.letter>li{
+.letter>li{
 	line-height: 31px;
 }
-div.right-bottom>p{
+.right-bottom>p{
 	margin-top: 43px;
 	margin-bottom: 21px;
 }
@@ -381,20 +385,19 @@ footer>a:hover{
 	width: 30px;
 	height: 30px;
 }
-div.social{
+.social{
 	margin-top: 25px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
-div.share{
+.share{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	min-width: 200px;
 }
-div.share img{
-
+.share img{
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
