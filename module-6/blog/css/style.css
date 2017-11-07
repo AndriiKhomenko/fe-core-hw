@@ -76,7 +76,7 @@ li>a{
 	text-decoration: none;
 	color: #fff;
 }
-a.logo{
+.logo{
 	width: 138px;
 	height: 138px;
 	border-radius: 50%;
@@ -233,22 +233,36 @@ footer>a:hover{
 	width: 30px;
 	height: 30px;
 }
-.social{
-	margin-top: 25px;
+.sprite{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.share{
-	display: flex;
-	flex-direction: row;
+	flex-flow: row nowrap;
 	justify-content: space-between;
-	min-width: 200px;
+	padding-top: 21px;
+	max-width: 196px;
+	margin: 0 auto;
 }
-.share img{
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
+.bg-facebook {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -12px -12px;
+    border-radius: 50%;
+}
+
+.bg-in {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -76px -12px;
+    border-radius: 50%;
+}
+
+.bg-twitter {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -140px -12px;
+    border-radius: 50%;
+}
+
+.bg-google {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -204px -12px;
+    border-radius: 50%;
 }
 .otstup{
 	margin-top: 25px;

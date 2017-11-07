@@ -24,7 +24,7 @@ header{
 	margin: 0 auto;
 	max-width: 904px;
 }
-ul.menu{
+.menu{
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
@@ -32,11 +32,11 @@ ul.menu{
 	max-width: 30%;
 	margin-top: 56px;
 }
-ul.menu>li.about{
+.menu>.about{
 	position: relative;
 	cursor: pointer;
 }
-ul.submenu{
+.submenu{
 	opacity: 0;
 	cursor: pointer;
 }
@@ -61,22 +61,22 @@ ul.submenu{
   transform: translate(-50%,-100%);
   margin-top: -9px;
 }
-ul.menu>li{
+.menu>li{
 	font-family: "Pathway Gothic One", sans-serif;
 	font-size: 28px;
 	text-transform: uppercase;
 }
-li.about:hover ul.submenu{
+.about:hover ul.submenu{
 	opacity: 1;
 }
-li.about:hover a{
+.about:hover a{
 	color: #263555;
 }
 li>a{
 	text-decoration: none;
 	color: #fff;
 }
-a.logo{
+.logo{
 	width: 138px;
 	height: 138px;
 	border-radius: 50%;
@@ -100,27 +100,123 @@ width: 288px;
 height: 154px;
 margin-top: 40px;
 }
-div.img2{
+.img1{
+	background: url(../img/img1.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img2{
 	background: url(../img/img2.jpg);
 	width: 288px;
 	height: 154px;
 	margin-top: 40px;
 }
-div.blackbg{
+.img3{
+	background: url(../img/img3.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img4{
+	background: url(../img/img4.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img5{
+	background: url(../img/img5.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img6{
+	background: url(../img/img6.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img7{
+	background: url(../img/img7.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img8{
+	background: url(../img/img8.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.img9{
+	background: url(../img/img9.jpg);
+	width: 288px;
+	height: 154px;
+	margin-top: 40px;
+}
+.blackbg{
 	display: none;
 	position: relative;
 	width: 288px;
 	height: 154px;
 	opacity: 0;
 }
-div.blackbg:before{
+.blackbg:before{
 	content: url(../img/loop.png);
 	position: absolute;
 	left: 144px;
 	top: 77px;
 	transform: translate(-50%,-50%);
 }
-div.img2:hover div.blackbg{
+.img1:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img2:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img3:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img4:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img5:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img6:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img7:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img8:hover .blackbg{
+	display: block;
+	cursor: pointer;
+	background: #000;
+	opacity: 0.6;
+}
+.img9:hover .blackbg{
 	display: block;
 	cursor: pointer;
 	background: #000;
@@ -167,22 +263,36 @@ footer>a:hover{
 	width: 30px;
 	height: 30px;
 }
-.social{
-	margin-top: 25px;
+.sprite{
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.share{
-	display: flex;
-	flex-direction: row;
+	flex-flow: row nowrap;
 	justify-content: space-between;
-	min-width: 200px;
+	padding-top: 21px;
+	max-width: 196px;
+	margin: 0 auto;
 }
-.share img{
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
+.bg-facebook {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -12px -12px;
+    border-radius: 50%;
+}
+
+.bg-in {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -76px -12px;
+    border-radius: 50%;
+}
+
+.bg-twitter {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -140px -12px;
+    border-radius: 50%;
+}
+
+.bg-google {
+    width: 40px; height: 40px;
+    background: url(../img/sprite.png) -204px -12px;
+    border-radius: 50%;
 }
 .otstup{
 	margin-top: 25px;
